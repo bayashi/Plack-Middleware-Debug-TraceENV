@@ -2,7 +2,7 @@ package Plack::Middleware::Debug::TraceENV;
 use strict;
 use warnings;
 use parent qw/Plack::Middleware::Debug::Base/;
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub prepare_app {
     tie %ENV, 'Plack::Middleware::Debug::TraceENV';
