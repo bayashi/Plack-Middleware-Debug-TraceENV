@@ -3,6 +3,12 @@
 
 This is Perl module B<Plack::Middleware::Debug::TraceENV>.
 
+=begin html
+
+<a href="http://travis-ci.org/bayashi/Plack-Middleware-Debug-TraceENV"><img src="https://secure.travis-ci.org/bayashi/Plack-Middleware-Debug-TraceENV.png"/></a> <a href="https://coveralls.io/r/bayashi/Plack-Middleware-Debug-TraceENV"><img src="https://coveralls.io/repos/bayashi/Plack-Middleware-Debug-TraceENV/badge.png?branch=master"/></a>
+
+=end html
+
 
 =head1 INSTALLATION
 
@@ -32,12 +38,6 @@ Plack::Middleware::Debug::TraceENV documentation is available as in POD. So you 
 
 Plack::Middleware::Debug::TraceENV is hosted on github
 L<http://github.com/bayashi/Plack-Middleware-Debug-TraceENV>
-
-=begin html
-
-<a href="http://travis-ci.org/bayashi/Plack-Middleware-Debug-TraceENV"><img src="https://secure.travis-ci.org/bayashi/Plack-Middleware-Debug-TraceENV.png"/></a>
-
-=end html
 
 
 =head1 LICENSE
