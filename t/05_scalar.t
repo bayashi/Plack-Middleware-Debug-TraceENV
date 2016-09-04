@@ -27,7 +27,7 @@ use Test::More;
 
         is $res->code, 200, 'response status 200';
 
-        like $res->content, qr{<p>scalar:\d+/\d+</p>}, "scalar";
+        like $res->content, qr{<p>scalar:\d+(/\d+)?</p>}, "scalar";
         like $res->content, qr{<td>\d+: SCALAR</td>}, "label of SCALAR";
     };
 }
