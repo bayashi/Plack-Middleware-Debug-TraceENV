@@ -7,9 +7,11 @@ my $builder = Module::Build->new(
     license             => 'perl',
     dist_author         => 'Dai Okabayashi <bayashi@cpan.org>',
     dist_version_from   => 'lib/Plack/Middleware/Debug/TraceENV.pm',
+    configure_requires  => {
+        'Module::Build' => 0.42,
+    },
     build_requires      => {
         'Test::More' => 0.88,
-        'Module::Build' => 0.42,
         'Plack::Test' => 0,
         'Plack::Builder' => 0,
         'HTTP::Request::Common' => 0,
