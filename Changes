@@ -1,5 +1,11 @@
 Revision history for Perl extension Plack::Middleware::Debug::TraceENV
 
+0.042   Sun Sep  4 13:24:56 JST 2016
+    [No CODE CHANGES]
+        - fixed dependency
+        - fix test for Perl5.25
+        - fix travis.yml
+
 0.041   Sun Mar  3 11:52:54 JST 2013
     [No CODE CHANGES]
         - fixed dependency
