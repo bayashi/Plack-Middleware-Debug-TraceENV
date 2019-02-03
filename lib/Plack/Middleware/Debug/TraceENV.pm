@@ -154,7 +154,7 @@ see L<Plack::Middleware::Debug::Base>
 =head1 REPOSITORY
 
 Plack::Middleware::Debug::TraceENV is hosted on github
-<http://github.com/bayashi/Plack-Middleware-Debug-TraceENV>
+L<http://github.com/bayashi/Plack-Middleware-Debug-TraceENV>
 
 
 =head1 AUTHOR
